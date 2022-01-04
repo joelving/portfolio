@@ -30,11 +30,11 @@ jobs:
           node-version: 'lts/*'
           
       - run: npm install
-          
-      - run: npm run copy
       
       - run: mkdir ./dist/css
       - run: mkdir ./dist/js
+          
+      - run: npm run copy
           
       - run: npm run bootstrap
           
