@@ -1,1 +1,1 @@
-header Content-Security-Policy "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; manifest-src 'self'"
+header Content-Security-Policy "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
