@@ -32,6 +32,9 @@ jobs:
       - run: npm install
           
       - run: npm run copy
+      
+      - run: mkdir ./dist/css
+      - run: mkdir ./dist/js
           
       - run: npm run bootstrap
           
