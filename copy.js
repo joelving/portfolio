@@ -6,8 +6,8 @@ const destDir = `./dist`;
 try {
   fse.removeSync(destDir);
   fse.copySync(srcDir, destDir);
-  fse.mkdir('./dist/css');
-  fse.mkdir('./dist/js');
+  fse.mkdirSync('./dist/css');
+  fse.mkdirSync('./dist/js');
   fse.copyFileSync('./node_modules/bootstrap.native/dist/polyfill.min.js', './dist/js/polyfill.min.js');
 }
 catch (err) {
