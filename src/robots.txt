@@ -1,2 +1,5 @@
+User-agent: Keybot Translation-Search-Machine
+Disallow: /
+
 User-agent: * 
 Disallow:
