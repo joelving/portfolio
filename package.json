@@ -6,6 +6,7 @@
     "copy": "node ./copy.js",
     "bootstrap": "node ./node_modules/bootstrap.native/lib/build.js -m -v 4 --only modal > ./dist/js/bootstrap-custom.js",
     "purify": "node ./purify.js",
+	"build": "npm run copy && npm run bootstrap && npm run purify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Toft Jølving",
